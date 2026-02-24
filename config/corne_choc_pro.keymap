@@ -30,10 +30,10 @@
             //                    | ALT | SPC | MO1 |            | SPC | SPC | MO2 |
 
             bindings = <
-&kp TAB    &kp Q      &kp W  &kp E     &kp R      &kp T  &kp Y  &bt BT_CLR  &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&kp LSHFT  &kp A      &kp S  &kp D     &kp F      &kp G  &kp B  &kp SEMI    &kp H      &kp J      &kp K      &kp L    &kp SQT   &kp RET
-&kp LGUI   &kp LCTRL  &kp Z  &kp X     &kp C      &kp V                     &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                             &kp LALT  &kp SPACE  &mo 1                     &kp SPACE  &kp SPACE  &mo 2
+&kp TAB    &kp Q      &kp W  &kp E     &kp R      &kp T  &kp Y  &mo 3     &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSPC
+&kp LSHFT  &kp A      &kp S  &kp D     &kp F      &kp G  &kp B  &kp SEMI  &kp H      &kp J      &kp K      &kp L    &kp SQT   &kp RET
+&kp LGUI   &kp LCTRL  &kp Z  &kp X     &kp C      &kp V                   &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                             &kp LALT  &kp SPACE  &mo 1                   &kp SPACE  &kp SPACE  &mo 2
             >;
         };
 
@@ -64,10 +64,19 @@
             //                    | ALT | SPC |     |            | SPC | KP0 | --- |
 
             bindings = <
-&kp ESC    &kp F1     &kp UP_ARROW    &kp F2     &kp F4     &kp F5   &kp F11  &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT      &none           &none           &kp DEL
-&kp LSHFT  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp F9     &kp F10  &kp F12  &sys_reset      &none       &none       &mkp MB1        &mmv MOVE_UP    &mkp MB2        &kp INS
-&kp LGUI   &kp LCTRL  &none           &none      &none      &none                             &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &kp RSHFT
-                                      &kp LALT   &kp SPACE  &none                             &kp SPACE   &kp KP_N0   &trans
+&kp ESC    &kp F1     &kp UP_ARROW    &kp F2     &kp F3     &kp F4   &kp F5  &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT      &none           &none           &kp DEL
+&kp LSHFT  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp F6     &kp F7   &kp F8  &sys_reset      &none       &none       &mkp MB1        &mmv MOVE_UP    &mkp MB2        &kp INS
+&kp LGUI   &kp LCTRL  &kp F9          &kp F10    &kp F11    &kp F12                          &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &kp RSHFT
+                                      &kp LALT   &kp SPACE  &none                            &kp SPACE   &kp KP_N0   &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
     };
