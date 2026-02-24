@@ -2,3 +2,7 @@
 include:
   - board: corne_choc_pro_left
   - board: corne_choc_pro_right
+  - board: corne_choc_pro_left
+    shield: settings_reset
+  - board: corne_choc_pro_right
+    shield: settings_reset
