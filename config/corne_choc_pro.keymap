@@ -64,9 +64,9 @@
             //                    | ALT | SPC |     |            | SPC | KP0 | --- |
 
             bindings = <
-&kp ESC    &kp F1     &kp UP_ARROW    &kp F2     &kp F3     &kp F4   &kp F5  &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT      &none           &none           &kp DEL
-&kp LSHFT  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp F6     &kp F7   &kp F8  &sys_reset      &none       &none       &mkp MB1        &mmv MOVE_UP    &mkp MB2        &kp INS
-&kp LGUI   &kp LCTRL  &kp F9          &kp F10    &kp F11    &kp F12                          &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &kp RSHFT
+&kp ESC    &kp F1     &kp UP_ARROW    &kp F2     &kp F3     &kp F4   &kp F5  &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT      &none           &none            &kp DEL
+&kp LSHFT  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp F6     &kp F7   &kp F8  &sys_reset      &none       &none       &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp INS
+&kp LGUI   &kp LCTRL  &kp F9          &kp F10    &kp F11    &kp F12                          &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RSHFT
                                       &kp LALT   &kp SPACE  &none                            &kp SPACE   &kp KP_N0   &trans
             >;
         };
