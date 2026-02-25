@@ -83,8 +83,8 @@
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans             &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &mmv MOVE_Y(-100)  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &mmv MOVE_Y(-10000)  &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &mmv MOVE_X(-10000)  &mmv MOVE_Y(10000)   &mmv MOVE_X(10000)  &trans
                         &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
