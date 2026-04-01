@@ -1,0 +1,11 @@
+boards:
+  - name: corne_choc_pro_left
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
+  - name: corne_choc_pro_right
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
